@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from backend.services.oauth_service import oauth_service
+from services.oauth_service import oauth_service
 
 router =APIRouter(
     prefix="/oauth",

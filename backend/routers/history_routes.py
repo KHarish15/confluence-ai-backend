@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 
 
-from backend.services.history_service import history_service
+from services.history_service import history_service
 
 from pydantic import BaseModel
 

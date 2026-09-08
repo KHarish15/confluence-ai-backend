@@ -2,7 +2,7 @@ import requests
 import markdown
 from markdownify import markdownify
 
-from backend.services.oauth_service import oauth_service
+from services.oauth_service import oauth_service
 
 
 class ConfluenceService:

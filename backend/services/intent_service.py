@@ -1,6 +1,6 @@
  # Detect user intent
-from backend.services.llm import LLMService
-from backend.prompts.intent_prompt import INTENT_PROMPT
+from services.llm import LLMService
+from prompts.intent_prompt import INTENT_PROMPT
 from langchain_core.prompts import PromptTemplate
 
 

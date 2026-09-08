@@ -2,7 +2,7 @@ from datetime import datetime
 
 from bson import ObjectId
 
-from backend.database.mongodb import mongodb
+from database.mongodb import mongodb
 from datetime import datetime
 
 

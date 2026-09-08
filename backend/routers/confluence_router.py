@@ -1,8 +1,8 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from backend.confluence_service import confluence_service
-from backend.services.oauth_service import oauth_service
-from backend.services.chat_service import chat_service
+from services.confluence_service import confluence_service
+from services.oauth_service import oauth_service
+from services.chat_service import chat_service
 router= APIRouter(
     prefix="/confluence",
     tags=["Confluence"]

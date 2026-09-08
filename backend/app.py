@@ -1,11 +1,11 @@
 from fastapi import FastAPI
-from backend.database.mongodb import mongodb
+from database.mongodb import mongodb
 from fastapi.middleware.cors import CORSMiddleware
-#from backend.routers.document import router as document_router
-from backend.routers.chat import router as chat_router
-from backend.routers.history_routes import router as  history_router
-from backend.routers.oauth import router as oauth_router
-from backend.routers.confluence_router import router as conf_router
+#from routers.document import router as document_router
+from routers.chat import router as chat_router
+from routers.history_routes import router as  history_router
+from routers.oauth import router as oauth_router
+from routers.confluence_router import router as conf_router
 
 # create fastapi application
 app=FastAPI(

@@ -1,12 +1,12 @@
 from langchain_core.prompts import PromptTemplate
 
-from backend.services.confluence_service import confluence_service
-from backend.services.intent_service import IntentService
-from backend.services.llm import LLMService
+from services.confluence_service import confluence_service
+from services.intent_service import IntentService
+from services.llm import LLMService
 
-from backend.prompts.summarize_prompt import SUMMARIZE_PROMPT
-from backend.prompts.qa_prompt import QA_PROMPT
-from backend.prompts.update_prompt import UPDATE_PROMPT
+from prompts.summarize_prompt import SUMMARIZE_PROMPT
+from prompts.qa_prompt import QA_PROMPT
+from prompts.update_prompt import UPDATE_PROMPT
 
 
 # Main orchestration
