@@ -17,7 +17,8 @@ app=FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173"
+        # "http://localhost:5173"
+         "https://confluence-ai-frontend-x7l4.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
